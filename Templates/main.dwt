@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link href="../_css/globalReset.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../_css/main.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="../_css/plugins.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- Internet Explorer HTML5 enabling code: -->
+<!--[if IE]>
+				<script type="text/javascript" src="_scripts/html5.js">    </script> 
+				<style type="text/css">
+					  .clear {
+							 zoom: 1;
+							 display: block;
+							 }
+				</style>
+<![endif]-->
+<script type="text/javascript" src="../_scripts/jquery.js"> 		</script>
+<script type="text/javascript" src="../_scripts/jqueryui.js"> 		</script>
+<script type="text/javascript" src="../_scripts/cufon.js"> 		</script>
+<script type="text/javascript" src="../_scripts/flipNav.js"> 		</script>
+<script type="text/javascript" src="../_scripts/nivoSlider.js"> 	</script>
+<script type="text/javascript" src="../_scripts/jcarousel.js">	    </script>
+<script type="text/javascript" src="../_scripts/aller.js">		</script>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Welcome to Las Vegas</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<section id="wrapper"> <!-- Defining the #page section with the section tag --><!-- TemplateBeginEditable name="header" -->
+		<header id="header"> 
+				<!-- Defining the header section of the page with the appropriate tag -->
+				<nav id="nav"> 
+						<!-- The nav link semantically marks your main site navigation -->
+						<ul>
+								<li><a href="../index.html">HOME</a></li>
+								<li><a href="../hotels.html">HOTELS</a></li>
+								<li><a href="../shows.html">SHOWS</a></li>
+								<li><a href="../casinos.html">CASINOS</a></li>
+								<li><a href="../shoppings.html">SHOPPINGS</a></li>
+								<li><a href="../weddings.html">WEDDINGS</a></li>
+						</ul>
+				</nav>
+		</header>
+		<!-- TemplateEndEditable -->
+		<section id="articles"> <!-- A new section with the articles --><!-- TemplateBeginEditable name="slideshow" --> 
+				<!-- Article 1 start -->
+				<article> 
+						<!-- The slideshow -->
+						<div id="slideshow" class="nivoSlider"> <img src="../_images/slideshow/nightView.jpg" width="1000" height="380" alt="night view" rel="_images/slideshow/dot.png"> <img src="../_images/slideshow/nyny.jpg" width="1000" height="380" alt="ny ny" rel="_images/slideshow/dot.png"> <img src="../_images/slideshow/paris.jpg" width="1000" height="380" alt="paris" rel="_images/slideshow/dot.png"> <img src="../_images/slideshow/casino.jpg" width="1000" height="380" alt="casino" rel="_images/slideshow/dot.png" > <img src="../_images/slideshow/hotelView.jpg" width="1000" height="380" alt="hotel view" rel="_images/slideshow/dot.png" > <img src="../_images/slideshow/fountains.jpg" width="1000" height="380" alt="fountains" rel="_images/slideshow/dot.png"></div>
+				</article>
+				<!-- slideshow end --> 
+				<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="content" -->
+				<div></div>
+				<!-- TemplateEndEditable --></section>
+		<!-- TemplateBeginEditable name="footer" -->
+		<footer id="footer"> 
+				<!-- Marking the footer section -->
+				<h1><a href="../index.html"><img src="_images/logo.jpg" width="240" height="90" alt="logo"></a></h1>
+				<div class="footInfo">
+						<h3>Stay</h3>
+						<p><a href="../hotels.html">Hotels</a></p>
+						<p><a href="../hotels.html">Resorts</a></p>
+				</div>
+				<div class="footInfo">
+						<h3>Play</h3>
+						<p><a href="../shows.html">Shows</a></p>
+						<p><a href="../casinos.html">Casinos</a></p>
+				</div>
+				<div class="footInfo">
+						<h3>Shop</h3>
+						<p><a href="../shoppings.html">Shopping</a></p>
+						<p><a href="../shoppings.html">Outlets</a></p>
+				</div>
+				<div class="footInfo">
+						<h3>Wedding</h3>
+						<p><a href="../weddings.html">Chaples</a></p>
+						<p><a href="../weddings.html">Packages</a></p>
+				</div>
+				<div id="siteCredit">
+						<h3>Design</h3>
+						<p>Copyright 2010 © All Rights Reserved</p>
+						<p>Designed by<a href="mailto:bigmabig@yahoo.com">Matt Ma</a></p>
+				</div>
+		</footer>
+		<!-- footer end --> 
+		<!-- TemplateEndEditable --></section>
+<!-- Closing the #page section -->
+</body>
+</html>

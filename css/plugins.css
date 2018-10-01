@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* Style need to be loaded along to use the special jQuery Plugin */
+/*------------------------------------------------- The Nivo Slider styles-----------------------------------------------*/
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:89;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:59;
+	cursor:pointer;
+	width:32px;
+	height:34px;
+	background:url(../_images/nivoSlider/arrows_color.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-left: 10px;
+}
+a.nivo-nextNav {
+	background-position:-32px 0;
+	right:10px;
+.nivo-prevNav {
+	left:0px;
+	text-indent: -9999px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+}
+
+
+/*------------------------------------------------- End of nivoSlider----------------------------------------------------------*/    
+
+
+/*------------------------------------------------- Cufon replace fix IE issues-----------------------------------------------*/  
+em, i { font-style: italic; } /*IE always style em, i as 'normal' instead of 'italic'*/
+strong, b { font-weight: bold; }  /*IE Opera fix bugs*/
+/*selector { position: relative; z-index: 1; } Fix opacity bugs of IE. IE need elements to be positioned. IE8 need zindex other than auto.*/
+/*------------------------------------------------- End of Cufon replace------------------------------------------------------*/  
